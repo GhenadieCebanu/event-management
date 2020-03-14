@@ -1,0 +1,15 @@
+server:
+  port: 8780
+  tomcat:
+    accesslog:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      base-path: /event-management
+  endpoint:
+    health:
+      enabled: true
+    info:
+      enabled: true
